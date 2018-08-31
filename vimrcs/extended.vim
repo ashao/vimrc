@@ -31,6 +31,11 @@ set guioptions-=L
 set background=dark
 colorscheme atom
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Remove system plugin directories to avoid conflicts
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set runtimepath-=/usr/share/vim/vimfiles/
+set runtimepath-=/var/lib/vim/addons/
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs

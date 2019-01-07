@@ -75,3 +75,10 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+""""""""""""""""""""""""""""""
+" => Tex/Latex section
+""""""""""""""""""""""""""""""
+au FileType latex,tex setl tw=80
+au FileType latex,tex setl fo=croqt
+

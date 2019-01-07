@@ -5,3 +5,6 @@
 set background=dark
 colorscheme atom
 
+" Disable superuser write
+cabbrev W w
+

@@ -63,9 +63,6 @@ cnoremap <C-A>		<Home>
 cnoremap <C-E>		<End>
 cnoremap <C-K>		<C-U>
 
-" Disable superuser write
-cabbrev W w
-
 cnoremap <C-P> <Up>
 cnoremap <C-N> <Down>
 

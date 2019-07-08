@@ -1,3 +1,9 @@
 [submodule "sources_non_forked/colorschemes"]
 	path = sources_non_forked/colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "sources_non_forked/vim-one"]
+	path = sources_non_forked/vim-one
+	url = git@github.com:rakr/vim-one.git
+[submodule "sources_non_forked/vim-atom-dark"]
+	path = sources_non_forked/vim-atom-dark
+	url = git@github.com:gosukiwi/vim-atom-dark.git

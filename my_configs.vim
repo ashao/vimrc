@@ -5,6 +5,11 @@
 set background=dark
 colorscheme atom
 
+" Set a different colorscheme for vimdiff
+if &diff
+    colorscheme atom-dark-256
+endif
+
 " Disable superuser write
 cabbrev W w
 

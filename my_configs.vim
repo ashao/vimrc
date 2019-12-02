@@ -13,3 +13,6 @@ endif
 " Disable superuser write
 cabbrev W w
 
+" Set tabs to 2
+set shiftwidth=2
+set tabstop=2
